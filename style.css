@@ -1,0 +1,35 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+ 
+.header{
+   height: 100vh;
+}
+
+.navbar{
+   box-shadow: 0 4px 4px skyblue;
+}
+   
+.map-container{
+   overflow:hidden;
+   padding-bottom:56.25%;
+   position:relative;
+   height:0;
+   }
+   .map-container iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+   }    
+   .point{
+      color: aliceblue;
+      background: goldenrod;
+      padding: 23px 1px 13px 43px;
+      margin: 0px 100px 0px 0px;
+      border-radius: 11px;
+   }
